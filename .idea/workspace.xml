@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dc1e24-3382-4a45-86d2-c80b5821fc91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tweets_flipkart_backup.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flipkart_tweets.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweepy_credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweepy_credentials.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiments.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -84,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tweepy_credentials.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -102,8 +98,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dataset.py" />
-        <option value="$PROJECT_DIR$/tweepy_credentials.py" />
         <option value="$PROJECT_DIR$/sentiments.py" />
+        <option value="$PROJECT_DIR$/tweepy_credentials.py" />
       </list>
     </option>
   </component>
@@ -241,6 +237,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,13 +282,6 @@
     <entry file="file://$PROJECT_DIR$/tweets_flipkart_backup.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweepy_credentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -321,6 +311,13 @@
             <marker date="1577656443260" expanded="true" signature="856:2317" ph="..." />
             <marker date="1577656443260" expanded="true" signature="2275:2276" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweepy_credentials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
