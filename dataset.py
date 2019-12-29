@@ -77,7 +77,9 @@ class TwitterClient(object):
 
         return pd.DataFrame(tweets).to_csv('tweets_flipkart.csv', encoding='utf-8', index=False)
 
+
 tweetsHandler = TwitterClient()
+# Put your queries in the parenthesis below
 tweetsHandler.fetch_tweets('Flipkart')
 
 ##############################################################################################################
