@@ -103,7 +103,7 @@ for i, j in file.iterrows():
         analyze = TextBlob(tweet)
         text_blob_polarity = analyze.sentiment.polarity
         # print(polarity)
-        print(tweet)
+        # print(tweet)
         # writer.writerows(polarity)
         output_textblob.append(score_value(text_blob_polarity))
 
@@ -122,6 +122,6 @@ for i, j in file.iterrows():
 
 file['output_textblob'] = output_textblob
 file['output_Vader']    = output_vader
-file1_save = file.to_excel("output_textblob.xlsx", "w")
-print("Output_textblob file saved successfully!!")
+file1_save = file.to_excel("outputs.xlsx", "w")
+print("Output file saved successfully!!")
 
