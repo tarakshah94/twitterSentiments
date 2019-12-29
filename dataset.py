@@ -8,71 +8,8 @@ import pandas as pd
 import json
 import time
 
-# auth = tweepy.OAuthHandler(tweepy_credentials.consumer_token,tweepy_credentials.consumer_secret)
-#
-# auth.set_access_token(tweepy_credentials.access_token, tweepy_credentials.access_secret)
-#
-# api = tweepy.API(auth)
-#
-# query = 'microsoft'
-#
-# max_id = None
 
-# tweets_raw = []
-#
-# for i in range(1,21):
-#
-#
-#     if(not max_id):
-#         search_tweets = api.search(query, count=100, since_id=max_id, rpp = i, in_reply_to_status_id = '@Flipkart')
-#     else:
-#         search_tweets = api.search(query, count=100, since_id=max_id, rpp=i, in_reply_to_status_id = '@Flipkart')
-#
-#     with open('flipkart_tweets.csv', "a", encoding="utf-8") as f:
-#         for tweet in search_tweets:
-#             tweets_raw.append(tweet.text)
-#             f.write(tweet.text)
-#             f.write('\n')
-#
-#
-#
-# print(len(list(dict.fromkeys(tweets_raw))))
-# # print(len(tweets_raw))
-
-
-
-
-# class StdOutListener(StreamListener):
-#
-#     def on_data(self, data):
-#         print(data)
-#         return True
-#
-#     def on_error(self, status):
-#         print(status)
-#
-#
-# if __name__ == "__main__":
-#     listener = StdOutListener()
-#     auth = OAuthHandler(tweepy_credentials.consumer_token,tweepy_credentials.consumer_secret)
-#     auth.set_access_token(tweepy_credentials.access_token,tweepy_credentials.access_secret)
-
-
-
-
-# auth = tweepy.OAuthHandler(tweepy_credentials.consumer_secret, tweepy_credentials.consumer_token)
-# # auth.set_access_token(tweepy_credentials.access_secret, tweepy_credentials.consumer_token)
-# #
-# # api = tweepy.API(auth, wait_on_rate_limit=True)
-
-
-
-
-
-
-
-
-################################################ TEST 1 ##########################################
+################################################ TWEEPY ##########################################
 
 
 class TwitterClient(object):
